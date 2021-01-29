@@ -76,6 +76,8 @@ namespace GCOL
                 timer3.Enabled = false;
                 PlaneDown.Visible = false;
                 Fire.Visible = true;
+                Continue.Visible = false;
+                
             }
         }
 
@@ -147,8 +149,9 @@ namespace GCOL
           
             if (PlaneRight.Location.X == 412)
             {
-            
+                
                 timer7.Enabled = false;
+                TurnLeft.Visible = false;
                 MessageBox.Show("CONGRATULATION!");
             }
         }
